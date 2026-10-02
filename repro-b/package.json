@@ -1,0 +1,7 @@
+{
+  "name": "solid-errored-loading-ssr-repro",
+  "private": true,
+  "type": "module",
+  "scripts": { "repro": "node --conditions=solid --conditions=development repro.mjs", "control": "npm run repro -- --outer", "check": "node check.mjs" },
+  "dependencies": { "solid-js": "2.0.0-rc.13", "@solidjs/web": "2.0.0-rc.13" }
+}
